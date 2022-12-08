@@ -2,7 +2,7 @@ import os
 
 api_id = int(os.environ.get("API_ID", "26662728"))
 api_hash = os.environ.get("API_HASH", "562302fa6d2e82bf399880f3b1250cf8")
-bot_token = os.environ.get("BOT_TOKEN", "5835706516:AAH5IKsegPL3VcbaTVDiYk-QuNx2G85ZlHE")
+bot_token = os.environ.get("BOT_TOKEN", "5835706516:AAETpXkhqCVc1isTRRHc83r8fe9nbXVcffo")
 # =========================================================== #
 
 db_url = os.environ.get("DB_URL", "mongodb+srv://p:Pendii11@cluster0.m8kujry.mongodb.net/?retryWrites=true&w=majority")
