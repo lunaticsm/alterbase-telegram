@@ -1,12 +1,12 @@
 from aiohttp import web
 from plugins import web_server
 
-import config, sys, os, requests, PORT
+import config, sys, os, requests
 
 from plugins import Database
 from pyrogram import Client, enums
 from pyrogram.types import BotCommand, BotCommandScopeAllPrivateChats
-
+from config import PORT
 data = []
 
 class Bot(Client):
