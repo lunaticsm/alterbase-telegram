@@ -22,7 +22,7 @@ PORT = os.environ.get("PORT", "8080")
 id_admin = int(os.environ.get("ID_ADMIN", "1983980399"))
 # =========================================================== #
 
-batas_kirim = int(os.environ.get("BATAS_KIRIM", "5"))
+batas_kirim = int(os.environ.get("BATAS_KIRIM", "3"))
 batas_talent = int(os.environ.get("BATAS_TALENT", "10"))
 batas_daddy_sugar = int(os.environ.get("BATAS_DADDY_SUGAR", "10"))
 batas_moansgirl = int(os.environ.get("BATAS_MOANSGIRL", "10"))
